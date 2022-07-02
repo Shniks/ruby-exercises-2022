@@ -15,17 +15,17 @@ class Hobbit
   end
 
   def adult?
-    return false if @age < 33
+    return false if age < 33
     true
   end
 
   def old?
-    return false if @age < 101
+    return false if age < 101
     true
   end
 
   def has_ring?
-    return true if @name.downcase == 'frodo'
+    return true if name.downcase == 'frodo'
     false
   end
 
