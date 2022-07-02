@@ -13,8 +13,7 @@ class Pirate
   end
 
   def cursed?
-    return true if @count >= 3
-    false
+    count >= 3
   end
 
   def commit_heinous_act
