@@ -1,5 +1,6 @@
-require './spec/spec-helper'
+require './spec/spec_helper'
 require './lib/centaur'
+require 'pry'
 
 RSpec.describe Centaur do
   it 'has a name' do
@@ -11,7 +12,6 @@ RSpec.describe Centaur do
     centaur = Centaur.new('George', 'Palomino')
     expect(centaur.breed).to eq('Palomino')
   end
-
   it 'has excellent bow skills' do
     centaur = Centaur.new('George', 'Palomino')
     expect(centaur.shoot).to eq('Twang!!!')
