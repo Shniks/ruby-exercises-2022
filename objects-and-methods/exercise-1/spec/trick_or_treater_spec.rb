@@ -3,6 +3,7 @@ require_relative '../lib/costume'
 require_relative '../lib/bag'
 require_relative '../lib/candy'
 require_relative '../lib/trick_or_treater'
+require 'pry'
 
 RSpec.describe TrickOrTreater do
   it 'wears a costume' do
